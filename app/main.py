@@ -10,7 +10,7 @@ from .utils.credits import calculate_credits
 app = FastAPI()
 
 # Configure CORS with multiple origins
-origins = ["http://localhost:3000", "https://pilgrim.isv.ee"]
+origins = ["http://localhost:3000", "https://inc.isv.ee"]
 
 app.add_middleware(
     CORSMiddleware,
