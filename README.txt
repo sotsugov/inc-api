@@ -10,4 +10,3 @@ fastapi dev app/main
 
 http://127.0.0.1:8000/api/docs
 http://127.0.0.1:8000/api/v1/users/1/messages
-
