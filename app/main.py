@@ -2,10 +2,10 @@ import random
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime, timedelta
-from models.message import Message, Messages
-from models.report import Report
-from models.usage import UsageItem, UsageResponse
-from utils.credits import calculate_credits
+from .models.message import Message, Messages
+from .models.report import Report
+from .models.usage import UsageItem, UsageResponse
+from .utils.credits import calculate_credits
 
 app = FastAPI()
 
